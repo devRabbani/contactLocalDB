@@ -1,0 +1,19 @@
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+}
+
+button:nth-child(2) {
+  color: rgb(193, 0, 0);
+}
+
+button:nth-child(1) {
+  color: rgb(0, 150, 40);
+}

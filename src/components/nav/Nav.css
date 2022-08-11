@@ -1,0 +1,24 @@
+nav{
+  text-align: center;
+  padding: 10px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  box-shadow: 0 3px 19px rgba(0,0,0,0.7);
+  
+}
+@media screen and (max-width:500px) {
+nav{
+padding-bottom: 50px;
+
+  grid-template-columns: repeat(1,1fr);
+}
+nav{
+  min-width:330px ;
+  width: 87%;
+  margin: 0 auto;
+}
+nav p{
+  line-break: anywhere;
+}
+}
